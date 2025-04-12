@@ -1,0 +1,20 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--terminal-black);
+    color: var(--terminal-green);
+    font-family: 'Courier New', monospace;
+    height: 100%;
+}
+
+pre {
+    margin: 0;
+    white-space: pre-wrap;
+}
